@@ -1,4 +1,5 @@
 class Cube:
+    #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
     def init(self, size):
         if size != 2:
             raise ValueError("This implementation is specifically for a 2x2 cube.")
