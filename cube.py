@@ -1,5 +1,5 @@
 class Cube:
-    def init(self, size):
+    def init(self, size): 
         if size != 2:
             raise ValueError("This implementation is specifically for a 2x2 cube.")
         self.size = size
